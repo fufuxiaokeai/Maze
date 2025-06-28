@@ -9,6 +9,7 @@ Player：玩家代码（包括其他玩家）
 UI：UI主键的控制
 
 # 对应代码文件说明
+
 ## Camre
 ### BigMap.cs
 管理大地图的相机代码，使用时确保该相机是玩家的子物体
@@ -18,3 +19,16 @@ UI：UI主键的控制
 用于处理开始画面的运镜代码
 ### VPCC.cs
 用于处理联机模式下胜利后的观战模式的相机处理
+
+## Maze
+### DFSMazeGenerator.cs
+由DFS算法进行的迷宫生成代码
+### KruskalMazeGenerator.cs
+由Kruskal算法进行的迷宫生成代码
+### PrimMazeGenerator.cs
+由Rrim算法进行的迷宫生成代码
+### MainMazeSet.cs
+用于控制上述的3个迷宫代码。将上述3个迷宫代码分别放在3个不同的空物体，再将这个代码（MainMazeSet.cs）放在新的空物体上，并将那3个空物体拖到新的物体上。
+### Unlock_Kru.cs
+对Kruskal算法所生成的迷宫进行开门处理。
+

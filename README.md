@@ -31,4 +31,39 @@ UI：UI主键的控制
 用于控制上述的3个迷宫代码。将上述3个迷宫代码分别放在3个不同的空物体，再将这个代码（MainMazeSet.cs）放在新的空物体上，并将那3个空物体拖到新的物体上。
 ### Unlock_Kru.cs
 对Kruskal算法所生成的迷宫进行开门处理。
+### UnlockSphere.cs
+对Prim算法所生成的迷宫进行开门处理。
+### WallInfo.cs
+存储迷宫墙壁信息的类。
+
+## online
+### ChatClient.cs
+用于处理聊天系统的代码文件。
+
+## online mode
+### OnlineUISet.cs
+用于处理聊天时的UI界面逻辑。
+### RoomSelect.cs
+用于处理房间逻辑的代码。
+
+## Player
+### Click.cs
+处理玩家点击触发点击音效。
+### collsion.cs
+累计玩家碰墙多少次。
+### GenshinCharacter.cs
+这是我模仿《原神》的玩家移动逻辑代码。
+### MouseControl.cs
+这是用于隐藏鼠标和显示鼠标的代码。
+### moving.cs
+用于播放玩家移动时的动画代码
+### Other_players.cs
+这是一个处理其他玩家的方位和动画代码
+### PlayerManager.cs
+这是联机时，玩家与玩家之间的处理。
+### SharedVariables.cs
+这是一个存储玩家体力的静态类。
+
+
+
 
